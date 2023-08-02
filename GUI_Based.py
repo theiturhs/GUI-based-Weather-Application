@@ -54,7 +54,7 @@ def api_call():
         tk.Label(window, text='Error! Try again!', bg='#ffffff').place(x=250, y=220, anchor=tk.CENTER)
 
 # main icon placement
-main_icon = tk.PhotoImage(file=r"C:\Users\SHRUTI SHRIVASTAVA\Desktop\Shruti\WeatherApp\icon.png")
+main_icon = tk.PhotoImage(file=r"WeatherApp\icon.png")
 main_icon = main_icon.subsample(10)
 
 # combine main_icon and mainLabel
