@@ -12,10 +12,10 @@ The steps on how to use the application:
 Some of the key features of the code:
 
 The code uses the tkinter module to create a GUI window.
-The code uses the requests module to make HTTP requests.
-The code uses the convert_api_time_to_ist() function to convert the sunrise and sunset times from the OpenWeatherMap API to IST.
-The code uses the api_call() function to retrieve the weather data for the city that is entered by the user.
-The code includes some error handling.
+Then it uses the requests module to make HTTP requests.
+Further, it uses the convert_api_time_to_ist() function to convert the sunrise and sunset times from the OpenWeatherMap API to IST.
+Then it uses the api_call() function to retrieve the weather data for the city that is entered by the user.
+Also it includes some error handling.
 
 The main window looks like:
 
